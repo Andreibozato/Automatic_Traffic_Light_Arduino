@@ -11,7 +11,7 @@
 
 
 void setup() {
-  pinMode (VM1, OUTPUT);
+ pinMode (VM1, OUTPUT);
  pinMode (AM1, OUTPUT);
  pinMode (VD1, OUTPUT);
  pinMode (PD_VM1, OUTPUT);
@@ -23,10 +23,7 @@ void setup() {
  pinMode (PD_VD2, OUTPUT);
 }
 
-void verde () {
-  
- 
-}
+
 void loop() {
 
 
