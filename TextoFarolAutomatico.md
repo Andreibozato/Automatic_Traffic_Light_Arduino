@@ -10,7 +10,7 @@ O código gerencia um total de **4 semáforos**:
 ### 🚦 Lógica de Operação:
 Para assegurar que ninguém se machuque no cruzamento, o sistema opera de maneira alternada e simultânea:
 
-1.  **Sincronização Carro/Pedestre:** * Sempre que o semáforo do carro está **Vermelho**, o de pedestre correspondente fica **Verde**.
+1.  **Sincronização Carro/Pedestre:** Sempre que o semáforo do carro está **Vermelho**, o de pedestre correspondente fica **Verde**.
     * Se o semáforo do carro muda para **Verde**, o de pedestre fica automaticamente **Vermelho**.
 2.  **Alternância de Via:**
     * Enquanto o Semáforo de Carro 1 permite a passagem, o Semáforo de Carro 2 bloqueia, e vice-versa.
