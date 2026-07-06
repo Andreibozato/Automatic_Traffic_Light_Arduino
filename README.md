@@ -10,8 +10,8 @@ The code manages a total of **4 traffic lights**:
 ### 🚦 Operating Logic:
 To ensure that no one gets hurt at the intersection, the system operates in an alternating and simultaneous manner:
 
-1.  **Car/Pedestrian Synchronization:** Whenever the car traffic light is **Red**, the corresponding pedestrian traffic light turns **Green**.
-    * If the car traffic light changes to **Green**, the pedestrian traffic light automatically turns **Red**.
+1.  **Car/Pedestrian Synchronization:** Whenever the car traffic light is **Red**, the corresponding pedestrian traffic light turns **Green.**
+    * If the car traffic light changes to **Green**, the pedestrian traffic light automatically turns **Red.**
 2.  **Lane Alternation:**
     * While Car Traffic Light 1 allows passage, Car Traffic Light 2 blocks it, and vice versa.
 ## 💻 Simulation Environment
