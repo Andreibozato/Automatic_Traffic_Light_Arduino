@@ -1,30 +1,29 @@
-# 🚥 Projeto: Sistema de Semáforos Sincronizados
+# 🚥 Project: Synchronized Traffic Light System
 
-Este projeto envolve um sistema de gerenciamento de tráfego criado com **Arduino**. A finalidade é controlar de maneira segura e automática a interseção entre veículos e pedestres.
+This project involves a traffic management system created with **Arduino**. The purpose is to safely and automatically control the intersection between vehicles and pedestrians.
 
-## 🚀 Como Funciona?
-O código gerencia um total de **4 semáforos**:
-* **2 Semáforos para Veículos**
-* **2 Semáforos para Pedestres**
+## 🚀 How It Works?
+The code manages a total of **4 traffic lights**:
+* **2 Traffic Lights for Vehicles**
+* **2 Traffic Lights for Pedestrians**
 
-### 🚦 Lógica de Operação:
-Para assegurar que ninguém se machuque no cruzamento, o sistema opera de maneira alternada e simultânea:
+### 🚦 Operating Logic:
+To ensure that no one gets hurt at the intersection, the system operates in an alternating and simultaneous manner:
 
-1.  **Sincronização Carro/Pedestre:** Sempre que o semáforo do carro está **Vermelho**, o de pedestre correspondente fica **Verde**.
-    * Se o semáforo do carro muda para **Verde**, o de pedestre fica automaticamente **Vermelho**.
-2.  **Alternância de Via:**
-    * Enquanto o Semáforo de Carro 1 permite a passagem, o Semáforo de Carro 2 bloqueia, e vice-versa.
-## 💻 Ambiente de Simulação
-Este projeto foi desenvolvido e testado de forma virtual, sem a necessidade de componentes físicos no momento.
+1.  **Car/Pedestrian Synchronization:** Whenever the car traffic light is **Red**, the corresponding pedestrian traffic light turns **Green**.
+    * If the car traffic light changes to **Green**, the pedestrian traffic light automatically turns **Red**.
+2.  **Lane Alternation:**
+    * While Car Traffic Light 1 allows passage, Car Traffic Light 2 blocks it, and vice versa.
+## 💻 Simulation Environment
+This project was developed and tested virtually, without the need for physical components at the moment.
 
 * **Software:** [SimulIDE](https://www.simulide.com/)
-* **Placa Simulada:** Arduino Uno
-* **Componentes Virtuais:** 
-  * LEDs para sinalização de tráfego.
-  * Resistores virtuais.
-  * Painel de conexões do simulador.
+* **Simulated Board:** Arduino Uno
+* **Virtual Components:** * LEDs for traffic signaling.
+  * Virtual resistors.
+  * Simulator connection panel.
 <img width="678" height="358" alt="image" src="https://github.com/user-attachments/assets/47fcbd11-d402-421b-8ee0-fcbac526638a" />
 
 ---
-*Projeto desenvolvido para fins de estudo sobre lógica de programação e eletrônica.*
+*Project developed for study purposes on programming logic and electronics.*
 
