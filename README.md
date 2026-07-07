@@ -24,6 +24,17 @@ This project was developed and tested virtually, without the need for physical c
   * Simulator connection panel.
 <img width="678" height="358" alt="image" src="https://github.com/user-attachments/assets/47fcbd11-d402-421b-8ee0-fcbac526638a" />
 
+## 📁 Project Structure
+
+This is how the project files are organized:
+
+```Andreibozato
+├── CircuitInSimulIDE/                    # Main folder containing the application source code in SimuIIDE
+│   ├── arduino_semaforo_pedestre.sim1      
+│   └── arduino_semaforo_pedestre.simu
+├── ArduinoTrafficLightCode 
+└── README.md   
 ---
 *Project developed for study purposes on programming logic and electronics.*
+
 
